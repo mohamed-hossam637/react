@@ -1,0 +1,12 @@
+footer:before{
+    content: "" ;
+    position: absolute ;
+    width: 40% ;
+    height: 1px ;
+    background-color: var(--main-light-color) ;
+    border-raduce: 50%;
+    top: 0 ;
+    left: 50% ;
+    transform: translateX(-50%);
+    z-index: 500
+}

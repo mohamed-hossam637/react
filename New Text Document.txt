@@ -1,0 +1,8 @@
+favorite component 
+logout action ======> Done
+edite send favorite item function to send media type with id ==========> Done
+get favorite data in favorite page
+add online and offline feture ==============> Done
+router protect to favorite page =============> Done
+create mobile menu navigation ===============> Done
+remove all console log =================> Done

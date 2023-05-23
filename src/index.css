@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+:root{
+  --main-bg-color: #131722 ;
+  --ligth-bg: #24baef ;
+  --font-ligth-color: #ecf0f1 ;
+  --main-light-color: #ecf0f1;
+}
+::-webkit-scrollbar{
+  background-color: var(--main-bg-color);
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #2c3e50;
+}
+body{
+  background-color: var(--main-bg-color) ;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: var(--font-ligth-color) ;
+}
+.add-favorite{
+  cursor: pointer;
+}
+.overFlow-scroll{
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.hover-underLine:hover{
+  text-decoration: underline;
+}
+
+@media(max-width : 767px){
+  .sm-center-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sm-w100{
+    width: 100%;
+  }
+  .sm_media_details{
+    margin: 10px 0;
+  }
+}

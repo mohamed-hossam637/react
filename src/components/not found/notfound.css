@@ -1,0 +1,21 @@
+.not-found{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    height: 80vh;
+}
+.not-found h2{
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.not-found p{
+    font-size: 19px;
+}
+.not-found a{
+    color: #2980b9 !important;
+    text-decoration: underline !important;
+    font-size: 18px;
+    padding: 5px ;
+    text-transform: capitalize
+}
